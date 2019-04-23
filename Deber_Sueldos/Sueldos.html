@@ -1,0 +1,46 @@
+<Doctype html>
+<html>
+<head>
+    <litle> Los sueldo del trabajador </litle>
+</head>
+<body>
+
+    <script>
+    let sueldo1,sueldo2,categoria;
+    sueldo1=parseFloat(prompt("Ingrese sueldo inicial"));
+    categoria=parseInt(prompt("Ingrese la categoria (1)(2)(3) o (4)"));
+    switch(categoria){
+        case 1: 
+        sueldo2=sueldo1*0.15;
+        alert(`El sueldo inicial es = ${sueldo1}`);
+        alert(`La categoria elegida es = ${categoria}`);
+        alert(`el sueldo final es = ${sueldo1+sueldo2}`);
+        break;
+        case 2: 
+        sueldo2=sueldo1*0.1;
+        alert(`El sueldo inicial es = ${sueldo1}`);
+        alert(`La categoria elegida es = ${categoria}`);
+        alert(`el sueldo final es = ${sueldo1+sueldo2}`);
+        break;
+        case 3: 
+        sueldo2=sueldo1*0.08;
+        alert(`El sueldo inicial es = ${sueldo1}`);
+        alert(`La categoria elegida es = ${categoria}`);
+        alert(`el sueldo final es = ${sueldo1+sueldo2}`);
+        break;
+        case 4: 
+        sueldo2=sueldo1*0.07;
+        alert(`El sueldo inicial es = ${sueldo1}`);
+        alert(`La categoria elegida es = ${categoria}`);
+        alert(`el sueldo final es = ${sueldo1+sueldo2}`);
+        break;
+        default:
+        alert(`Ingrese categoria correcta`);
+
+    }
+    </script>
+</body>
+
+</html>
+
+</Doctype>
